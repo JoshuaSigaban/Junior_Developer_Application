@@ -131,7 +131,7 @@ $pwd_rp = $_POST['pwd_rp'];
               }            
               }else{
                     $data['success'] = true;
-                    $data['message'] = 'Success, check your email for verification link before you can login!';
+                    $data['message'] = 'Success, check your email for verification link before you can log in!';
                     echo json_encode($data);
                     exit();
                   
